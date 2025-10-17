@@ -25,6 +25,7 @@ The app auto-creates `code_reviews.db` on first run.
 ## Install
 
 ```bash
+pip install uv
 uv venv
 uv sync
 ```
