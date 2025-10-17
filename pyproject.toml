@@ -1,0 +1,15 @@
+[project]
+name = "codereview"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.3"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "fastapi>=0.119.0",
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "sqlmodel>=0.0.27",
+    "uvicorn>=0.37.0",
+]
