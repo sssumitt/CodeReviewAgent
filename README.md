@@ -1,6 +1,6 @@
 # Code Review Assistant
 
-FastAPI app to upload source code files, get Gemini 2.5 Pro-powered code reviews, store reports in SQLite, and view them via a minimal dashboard.
+An AI-powered, self-hosted code review tool built with FastAPI and SQLite. Upload a file and get instant feedback on your code.
 
 The app auto-creates `code_reviews.db` on first run.
 
