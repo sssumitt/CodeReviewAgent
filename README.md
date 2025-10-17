@@ -46,7 +46,7 @@ DATABASE_URL="sqlite:///./code_reviews.db"
 ## Run (development)
 
 ```bash
-uv run -- uvicorn code_review_assistant:app --reload --port 8000
+uv run -- uvicorn app.main:app --reload
 ```
 
 Open browser at `http://localhost:8000` for the dashboard.
